@@ -1,5 +1,5 @@
 .fondo{
-    background-color:lightgoldenrodyellow;
+    background-color:black;
 }
 .abogada, .aptitudes, .formacion{
     color: pink;
@@ -13,10 +13,14 @@ img{
    
 }
 .iconos{
-    width: 100px;
-    height: 100px;
     margin-top:30px;
+    margin-left:10px;
+    padding:10%
+ 
 }
 .abogada{
     text-align: center
+}
+.cosita{
+    margin-left:30%
 }
