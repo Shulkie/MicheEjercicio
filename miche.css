@@ -17,14 +17,11 @@
     margin-top: 10px;
    
 }
-.iconos{
+.iconos img{
   
     margin-top:30px;
-    display: flex;
-    justify-content: center
+    margin-left: 200px
 
-   
-   
     
  
 }
@@ -58,19 +55,7 @@
     .aptitudes{
         margin-left: 0;
     }
-    .gatito img{
-        margin-left: 250px;
-       
-    }
-    .cocina img{
-        margin-left:200px;
-        margin-right:200px
-    }
-    .cosita2 img{
-        margin-left:250px;
-    }
-    .cosita img, .corazon img{
-        margin-left:25px
-    }
-   
+   .iconos img{
+       margin-left:0
+   }
    }
