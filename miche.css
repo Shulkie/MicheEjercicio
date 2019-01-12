@@ -1,9 +1,9 @@
 .fondo{
-    background-color:black;
+    background-image: linear-gradient(to top, #eb85d9, #ff97b1, #ffb6a3, #f2d4b5, #ebeadb); 
 }
 .abogada, .aptitudes, .formacion{
-    color: pink;
-    font-family:fantasy;
+    color: darkviolet;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top:20px;
 }
 img{
@@ -23,4 +23,7 @@ img{
 }
 .cosita{
     margin-left:30%
+}
+.aptitudes, .formacion{
+    margin-top:14%
 }
