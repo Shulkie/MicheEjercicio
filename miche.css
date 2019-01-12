@@ -5,7 +5,8 @@
     color: darkviolet;
     font-family: 'Oswald', sans-serif;
     margin-top:20px;
-    font-size: 30px;
+    font-size: 25px;
+
 }
 img{
     border-radius: 110px;
@@ -20,13 +21,15 @@ img{
  
 }
 .abogada{
-    text-align: center
+    text-align: center;
+    margin-top: 70%
 }
 .cosita{
     margin-left:30%
 }
 .aptitudes, .formacion{
-    margin-top:14%
+    margin-top:14%;
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -36,4 +39,7 @@ img{
     .abogada {
     margin-left: 45%;
     }
+}
+.aptitudes{
+    margin-left:50px
 }
