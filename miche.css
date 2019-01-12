@@ -9,15 +9,19 @@
 
 }
 img{
+    -webkit-border-radius: 110px;
+    -moz-border-radius: 110px;
     border-radius: 110px;
     border: 2px;
     margin-top: 10px;
    
 }
 .iconos{
+  
     margin-top:30px;
     margin-left:10px;
-    padding:5%
+    width: 300px
+
  
 }
 .abogada{
@@ -32,6 +36,14 @@ img{
     
 }
 
+
+.aptitudes{
+    margin-left:50px
+}
+.cosita img{
+    max-width: 100%;
+    height: auto; 
+}
 @media only screen and (max-width: 600px) {
     .cara {
     margin-left: 30%;           
@@ -39,7 +51,7 @@ img{
     .abogada {
     margin-left: 45%;
     }
-}
-.aptitudes{
-    margin-left:50px
+    .aptitudes{
+        margin-left: 0;
+    }
 }
