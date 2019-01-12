@@ -1,6 +1,6 @@
 .fondo{
     background-image: linear-gradient(to top, #eb85d9, #ff97b1, #ffb6a3, #f2d4b5, #ebeadb); 
- 
+     
 }
 .abogada, .aptitudes, .formacion{
     color: darkviolet;
@@ -9,7 +9,7 @@
     font-size: 25px;
 
 }
-img{
+.cara img{
     -webkit-border-radius: 110px;
     -moz-border-radius: 110px;
     border-radius: 110px;
@@ -20,17 +20,21 @@ img{
 .iconos{
   
     margin-top:30px;
-    margin-left:10px;
-    width: 300px
+    display: flex;
+    justify-content: center
 
+   
+   
+    
  
 }
 .abogada{
     text-align: center;
     margin-top: 70%
 }
-.cosita{
-    margin-left:30%
+.iconos img{
+ 
+   margin-right: 50px
 }
 .aptitudes, .formacion{
     margin-top:14%;
@@ -42,6 +46,8 @@ img{
     margin-left:50px
 }
 
+
+
 @media only screen and (max-width: 600px) {
     .cara {
     margin-left: 30%;           
@@ -52,4 +58,21 @@ img{
     .aptitudes{
         margin-left: 0;
     }
-}
+    .gatito img{
+        margin-left: 250px;
+       
+    }
+    .cocina img{
+        margin-left:200px;
+        margin-right:200px
+    }
+    .cosita2 img{
+        margin-left:250px;
+    }
+    .cosita img{
+        margin-left:25px
+    }
+    .corazon img{
+        margin-left:25px
+    }
+   }
