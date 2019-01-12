@@ -69,10 +69,8 @@
     .cosita2 img{
         margin-left:250px;
     }
-    .cosita img{
+    .cosita img, .corazon img{
         margin-left:25px
     }
-    .corazon img{
-        margin-left:25px
-    }
+   
    }
