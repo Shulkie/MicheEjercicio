@@ -59,3 +59,15 @@
        margin-left:0
    }
    }
+
+   @media only screen and (max-width: 900px) {
+
+.iconos img{
+    margin-left: 0;
+}
+.cara img{
+   margin-right: 250px;
+   margin-left: 200px
+   
+}
+   }
