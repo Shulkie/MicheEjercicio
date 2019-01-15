@@ -34,38 +34,33 @@
    margin-right: 50px
 }
 .aptitudes, .formacion{
-    margin-top:14%;
+    margin-top:14%;    
+}
+
+@media only screen and (max-width: 994px) {
+
+    .iconos img{
+        margin-left: 0;
+    }
+    .formacion{
+        margin-left:60px
+    }
+    .contenido1{
+        margin-left:150px;
+        }
     
-}
-
-.aptitudes{
-    margin-left:50px
-}
-
-
+    
+       }
 
 @media only screen and (max-width: 600px) {
     .contenido1{
-    margin-left:150px;
-    }
-
+ 
+ margin-left:20%}
+  
    .iconos img{
        margin-left:0
    }
    .formacion { margin-left: 0;
    }
 }
-   @media only screen and (max-width: 994px) {
-
-.iconos img{
-    margin-left: 0;
-}
-.formacion{
-    margin-left:60px
-}
-.contenido1{
-    margin-left:150px;
-    }
-
-
-   }
+ 
