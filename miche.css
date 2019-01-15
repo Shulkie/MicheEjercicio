@@ -45,21 +45,19 @@
 
 
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 600px) {
     .cara {
     margin-left: 0;           
     }
     .abogada {
     margin-left: 0;
     }
-    .aptitudes{
-        margin-left: 0;
-    }
    .iconos img{
        margin-left:0
    }
+   .formacion { margin-left: 0;
    }
-
+}
    @media only screen and (max-width: 994px) {
 
 .iconos img{
@@ -68,7 +66,5 @@
 .formacion{
     margin-left:60px
 }
-  
-   
-}
+
    }
